@@ -126,7 +126,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Flex Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -334,9 +334,7 @@ MonoBehaviour:
   CurrentStateName: Normal
   NormalState:
     StateType: 0
-    StateName: Normal
     StateEvent:
-      Enabled: 1
       EventName: Unnamed
       Runners: []
       Event:
@@ -344,9 +342,7 @@ MonoBehaviour:
           m_Calls: []
   HighlightedState:
     StateType: 1
-    StateName: Highlighted
     StateEvent:
-      Enabled: 1
       EventName: Unnamed
       Runners: []
       Event:
@@ -354,9 +350,7 @@ MonoBehaviour:
           m_Calls: []
   PressedState:
     StateType: 2
-    StateName: Pressed
     StateEvent:
-      Enabled: 1
       EventName: Unnamed
       Runners: []
       Event:
@@ -364,9 +358,7 @@ MonoBehaviour:
           m_Calls: []
   SelectedState:
     StateType: 3
-    StateName: Selected
     StateEvent:
-      Enabled: 1
       EventName: Unnamed
       Runners: []
       Event:
@@ -374,9 +366,7 @@ MonoBehaviour:
           m_Calls: []
   DisabledState:
     StateType: 4
-    StateName: Disabled
     StateEvent:
-      Enabled: 1
       EventName: Unnamed
       Runners: []
       Event:
@@ -389,7 +379,7 @@ MonoBehaviour:
   Id:
     Category: None
     Name: None
-    Custom: 1
+    Custom: 0
 --- !u!114 &1418214372887040126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,6 +2005,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   HighlightedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -2095,6 +2087,8 @@ MonoBehaviour:
       ToLightnessOffset: 0.1
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   PressedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -2175,6 +2169,8 @@ MonoBehaviour:
       ToLightnessOffset: -0.1
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   SelectedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -2255,6 +2251,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   DisabledAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -2335,6 +2333,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: -0.5
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1418214372964475850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3894,6 +3894,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   HighlightedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -3974,6 +3976,8 @@ MonoBehaviour:
       ToLightnessOffset: 0.1
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   PressedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -4054,6 +4058,8 @@ MonoBehaviour:
       ToLightnessOffset: -0.1
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   SelectedAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -4134,6 +4140,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: 0
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
   DisabledAnimation:
     OnPlayCallback:
       m_PersistentCalls:
@@ -4214,6 +4222,8 @@ MonoBehaviour:
       ToLightnessOffset: 0
       FromAlphaOffset: 0
       ToAlphaOffset: -0.5
+    UseCustomStartValue: 0
+    CustomStartValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &3915022928345260531
 MonoBehaviour:
   m_ObjectHideFlags: 0

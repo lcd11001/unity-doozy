@@ -112,7 +112,7 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 1
   ClearGraphHistory: 0
-  Position: {x: 0, y: 106}
+  Position: {x: 0.000008804316, y: 106}
   Payload:
     StreamId:
       Category: Music
@@ -320,10 +320,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02761efe598a45c98fa1baf4d446c6a7, type: 3}
   m_Name: E01
   m_EditorClassIdentifier: 
+  EditorPosition: {x: 267, y: 37, z: 0}
+  EditorScale: {x: 1, y: 1, z: 1}
   Id: 935df7bc-58ca-403e-bb28-a1b03e41a6a9
   GraphName: Flow Graph
   GraphDescription: 
   IsSubGraph: 0
+  GraphState: 0
+  OnStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
   Nodes:
   - {fileID: 166908779398436844}
   - {fileID: 7300523624071510163}
